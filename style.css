@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #eeedec;
+  color: #6c757d;
+  letter-spacing: 0.2em;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.form label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.form input {
+  width: 100%;
+  border: 1px solid #c7c7c7;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.form input:focus {
+  outline-color: skyblue;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #6c757d6c, -5px -5px 15px #6c757d6c;
+}
+
+.city {
+  background-color: #fff;
+  text-align: center;
+}
+
+.city h5 {
+  font-size: 18px;
+  padding: 20px;
+}
+
+.weather-condition {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.temp-display {
+  font-size: 3.5rem;
+  font-weight: 400;
+  padding-bottom: 20px;
+}

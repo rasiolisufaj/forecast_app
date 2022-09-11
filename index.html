@@ -13,15 +13,14 @@
 
       <form class="form change-location">
         <label for="city">Enter a location for weather information</label>
-        <input type="text" name="city" id="city" />
+        <input type="text" name="city" id="city-id" />
       </form>
-
-      <div class="card">
-        <img src="https://via.placeholder.com/400x300" class="time" />
-        <div class="icon">
-          <!-- ICON -->
+      <div class="card d-none" id="card">
+        <img src="https://via.placeholder.com/400x300" class="time" id="time" />
+        <div class="icon" id="icon">
+          <img src="" alt="" id="icon-image" />
         </div>
-        <div class="city details">
+        <div class="city details" id="details">
           <h5>CITY NAME</h5>
           <div class="weather-condition">WEATHER CONDITION</div>
           <div class="temp-display"><span>TEMP</span><span> &deg;C</span></div>

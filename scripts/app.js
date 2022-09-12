@@ -52,8 +52,17 @@ formElement.addEventListener("submit", (e) => {
   // clear out the form field
   formElement.reset();
 
+  // Local Storage
+  localStorage.setItem("city", city);
+
   // Update the UI
   updateCity(city)
     .then((data) => updateUI(data))
     .catch((error) => console.log(error));
 });
+
+if (localStorage.getItem("city")) {
+  updateCity(localStorage.city)
+    .then((data) => updateUI(data))
+    .catch((error) => console.log(error));
+}
